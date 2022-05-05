@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.jjwproject</groupId>
     <artifactId>jjwproject-commons</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>jjwproject-commons</name>
     <description>jjwproject-commons</description>
     <properties>
@@ -53,14 +53,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
