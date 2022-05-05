@@ -1,0 +1,19 @@
+
+spring:
+  profiles:
+    active: dev,default
+  datasource:
+    url: jdbc:h2:file:./db/dev
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: password
+
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8080
